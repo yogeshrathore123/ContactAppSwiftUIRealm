@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089EC18E78DDC810FA6D0AA6 /* Pods_ContactAppSwiftUIRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AA965BE1170C16EE5211E6 /* Pods_ContactAppSwiftUIRealm.framework */; };
+		AB89C4B02D3797B500A19102 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89C4AD2D3797B500A19102 /* ContactDetailView.swift */; };
+		AB89C4B12D3797B500A19102 /* ContactCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89C4AC2D3797B500A19102 /* ContactCellView.swift */; };
+		AB89C4B22D3797B500A19102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89C4AE2D3797B500A19102 /* ContentView.swift */; };
+		AB89C4B32D3797B500A19102 /* ContactAppSwiftUIRealmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89C4A52D3797B500A19102 /* ContactAppSwiftUIRealmApp.swift */; };
+		AB89C4B42D3797B500A19102 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89C4A62D3797B500A19102 /* UIApplication+Extension.swift */; };
+		AB89C4B52D3797B500A19102 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89C4A82D3797B500A19102 /* Contact.swift */; };
+		AB89C4B62D3797B500A19102 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB89C4AA2D3797B500A19102 /* Preview Assets.xcassets */; };
+		AB89C4B72D3797B500A19102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB89C4A42D3797B500A19102 /* Assets.xcassets */; };
+		AB89C4BA2D379C2B00A19102 /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89C4B92D379C2A00A19102 /* DataBaseHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3227BD0511CC442B215D4B7F /* Pods-ContactAppSwiftUIRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactAppSwiftUIRealm.release.xcconfig"; path = "Target Support Files/Pods-ContactAppSwiftUIRealm/Pods-ContactAppSwiftUIRealm.release.xcconfig"; sourceTree = "<group>"; };
+		3D6C46648536758CBC5FCAF4 /* Pods-ContactAppSwiftUIRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactAppSwiftUIRealm.debug.xcconfig"; path = "Target Support Files/Pods-ContactAppSwiftUIRealm/Pods-ContactAppSwiftUIRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		AB89C4A42D3797B500A19102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB89C4A52D3797B500A19102 /* ContactAppSwiftUIRealmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppSwiftUIRealmApp.swift; sourceTree = "<group>"; };
+		AB89C4A62D3797B500A19102 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		AB89C4A82D3797B500A19102 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		AB89C4AA2D3797B500A19102 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB89C4AC2D3797B500A19102 /* ContactCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCellView.swift; sourceTree = "<group>"; };
+		AB89C4AD2D3797B500A19102 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		AB89C4AE2D3797B500A19102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB89C4B92D379C2A00A19102 /* DataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
+		ABA7F0472D3592A200F1B90B /* ContactAppSwiftUIRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactAppSwiftUIRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AA965BE1170C16EE5211E6 /* Pods_ContactAppSwiftUIRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactAppSwiftUIRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA7F0442D3592A200F1B90B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089EC18E78DDC810FA6D0AA6 /* Pods_ContactAppSwiftUIRealm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		802D34E20348212C4E4B4046 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D6C46648536758CBC5FCAF4 /* Pods-ContactAppSwiftUIRealm.debug.xcconfig */,
+				3227BD0511CC442B215D4B7F /* Pods-ContactAppSwiftUIRealm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB89C4A72D3797B500A19102 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB89C4A62D3797B500A19102 /* UIApplication+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AB89C4A92D3797B500A19102 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB89C4A82D3797B500A19102 /* Contact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB89C4AB2D3797B500A19102 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB89C4AA2D3797B500A19102 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB89C4AF2D3797B500A19102 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB89C4AC2D3797B500A19102 /* ContactCellView.swift */,
+				AB89C4AD2D3797B500A19102 /* ContactDetailView.swift */,
+				AB89C4AE2D3797B500A19102 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB89C4B82D379BFE00A19102 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AB89C4B92D379C2A00A19102 /* DataBaseHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		ABA7F03E2D3592A200F1B90B = {
+			isa = PBXGroup;
+			children = (
+				ABA7F0492D3592A200F1B90B /* ContactAppSwiftUIRealm */,
+				ABA7F0482D3592A200F1B90B /* Products */,
+				802D34E20348212C4E4B4046 /* Pods */,
+				D560685652A122C6F90DDEA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA7F0482D3592A200F1B90B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7F0472D3592A200F1B90B /* ContactAppSwiftUIRealm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA7F0492D3592A200F1B90B /* ContactAppSwiftUIRealm */ = {
+			isa = PBXGroup;
+			children = (
+				AB89C4B82D379BFE00A19102 /* Helper */,
+				AB89C4A42D3797B500A19102 /* Assets.xcassets */,
+				AB89C4A52D3797B500A19102 /* ContactAppSwiftUIRealmApp.swift */,
+				AB89C4A72D3797B500A19102 /* Extension */,
+				AB89C4A92D3797B500A19102 /* Model */,
+				AB89C4AB2D3797B500A19102 /* Preview Content */,
+				AB89C4AF2D3797B500A19102 /* View */,
+			);
+			path = ContactAppSwiftUIRealm;
+			sourceTree = "<group>";
+		};
+		D560685652A122C6F90DDEA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA965BE1170C16EE5211E6 /* Pods_ContactAppSwiftUIRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA7F0462D3592A200F1B90B /* ContactAppSwiftUIRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA7F0552D3592A400F1B90B /* Build configuration list for PBXNativeTarget "ContactAppSwiftUIRealm" */;
+			buildPhases = (
+				3EFFC1A8B5979FCBB17DFC28 /* [CP] Check Pods Manifest.lock */,
+				ABA7F0432D3592A200F1B90B /* Sources */,
+				ABA7F0442D3592A200F1B90B /* Frameworks */,
+				ABA7F0452D3592A200F1B90B /* Resources */,
+				CE237BBF0A34C4612E5067A6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactAppSwiftUIRealm;
+			productName = ContactAppSwiftUIRealm;
+			productReference = ABA7F0472D3592A200F1B90B /* ContactAppSwiftUIRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA7F03F2D3592A200F1B90B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					ABA7F0462D3592A200F1B90B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = ABA7F0422D3592A200F1B90B /* Build configuration list for PBXProject "ContactAppSwiftUIRealm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA7F03E2D3592A200F1B90B;
+			productRefGroup = ABA7F0482D3592A200F1B90B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA7F0462D3592A200F1B90B /* ContactAppSwiftUIRealm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA7F0452D3592A200F1B90B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB89C4B62D3797B500A19102 /* Preview Assets.xcassets in Resources */,
+				AB89C4B72D3797B500A19102 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EFFC1A8B5979FCBB17DFC28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContactAppSwiftUIRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE237BBF0A34C4612E5067A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactAppSwiftUIRealm/Pods-ContactAppSwiftUIRealm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactAppSwiftUIRealm/Pods-ContactAppSwiftUIRealm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactAppSwiftUIRealm/Pods-ContactAppSwiftUIRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA7F0432D3592A200F1B90B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB89C4BA2D379C2B00A19102 /* DataBaseHelper.swift in Sources */,
+				AB89C4B02D3797B500A19102 /* ContactDetailView.swift in Sources */,
+				AB89C4B12D3797B500A19102 /* ContactCellView.swift in Sources */,
+				AB89C4B22D3797B500A19102 /* ContentView.swift in Sources */,
+				AB89C4B32D3797B500A19102 /* ContactAppSwiftUIRealmApp.swift in Sources */,
+				AB89C4B42D3797B500A19102 /* UIApplication+Extension.swift in Sources */,
+				AB89C4B52D3797B500A19102 /* Contact.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABA7F0532D3592A400F1B90B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABA7F0542D3592A400F1B90B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA7F0562D3592A400F1B90B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6C46648536758CBC5FCAF4 /* Pods-ContactAppSwiftUIRealm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContactAppSwiftUIRealm/Preview Content\"";
+				DEVELOPMENT_TEAM = R36X7P8799;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yogeshrathore.ContactAppSwiftUIRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA7F0572D3592A400F1B90B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3227BD0511CC442B215D4B7F /* Pods-ContactAppSwiftUIRealm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContactAppSwiftUIRealm/Preview Content\"";
+				DEVELOPMENT_TEAM = R36X7P8799;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yogeshrathore.ContactAppSwiftUIRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA7F0422D3592A200F1B90B /* Build configuration list for PBXProject "ContactAppSwiftUIRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA7F0532D3592A400F1B90B /* Debug */,
+				ABA7F0542D3592A400F1B90B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA7F0552D3592A400F1B90B /* Build configuration list for PBXNativeTarget "ContactAppSwiftUIRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA7F0562D3592A400F1B90B /* Debug */,
+				ABA7F0572D3592A400F1B90B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA7F03F2D3592A200F1B90B /* Project object */;
+}
